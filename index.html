@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buchi | Data Analyst Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #e5e7eb;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #263247;
+    }
+
+    header h2 { color: #60a5fa; }
+
+    nav a {
+      color: #cbd5e1;
+      text-decoration: none;
+      margin-left: 18px;
+    }
+
+    section {
+      padding: 70px 8%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .hero { padding-top: 100px; }
+
+    .tag { color: #60a5fa; font-weight: bold; }
+
+    h1 {
+      font-size: clamp(36px, 6vw, 58px);
+      line-height: 1.2;
+      margin: 16px 0;
+    }
+
+    h2 { margin-bottom: 18px; }
+
+    p { color: #b8c4d6; margin-bottom: 16px; }
+
+    .button {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin: 10px 8px 0 0;
+    }
+
+    .secondary {
+      background: transparent;
+      border: 1px solid #475569;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #111c30;
+      border: 1px solid #263247;
+      padding: 24px;
+      border-radius: 12px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #172554;
+      color: #bfdbfe;
+      padding: 8px 13px;
+      margin: 5px;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px;
+      border-top: 1px solid #263247;
+      color: #94a3b8;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    @media (max-width: 600px) {
+      header { padding: 18px 5%; }
+      nav a { margin-left: 8px; font-size: 13px; }
+      section { padding: 55px 6%; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Buchi.</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <p class="tag">ASPIRING DATA ANALYST</p>
+    <h1>Turning Data Into<br>Useful Insights.</h1>
+    <p>
+      Hi, I'm Buchi, a Computer Science student learning to
+      transform raw data into meaningful insights using Excel
+      and SQL. I enjoy exploring data and answering business questions.
+    </p>
+    <a class="button" href="#projects">Explore My Projects</a>
+    <a class="button secondary"
+       href="https://github.com/Buchi28">My GitHub</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm building my skills in data analysis through hands-on
+      projects and consistent practice. My goal is to help
+      businesses understand their data and make informed decisions.
+    </p>
+    <h2>My Skills</h2>
+    <div class="skills">
+      <span>Microsoft Excel</span>
+      <span>SQL</span>
+      <span>MySQL</span>
+      <span>Data Cleaning</span>
+      <span>Data Analysis</span>
+      <span>Data Visualisation</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Project</h2>
+    <div class="cards">
+      <div class="card">
+        <p class="tag">EXCEL · SQL · MYSQL</p>
+        <h3>Supermarket Sales Analysis</h3>
+        <p>
+          Explored supermarket transaction data to investigate
+          branch revenue, product performance, payment methods
+          and customer purchasing patterns.
+        </p>
+        <a class="button"
+           href="https://github.com/Buchi28/supermarket-sales-analysis">
+          View Project
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <p>I'm learning, building projects and growing as a data analyst.</p>
+    <a class="button"
+       href="https://github.com/Buchi28">Connect on GitHub</a>
+  </section>
+
+  <footer>
+    <p>Built by Buchi · Data Analyst Portfolio</p>
+  </footer>
+
+</body>
+</html>
